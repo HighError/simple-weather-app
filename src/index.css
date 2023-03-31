@@ -10,12 +10,62 @@ body {
   overflow: hidden;
 }
 
-.rain {
-  background-image: url('public/sun.jpeg');
+.default {
+  background-image: url('default.jpg');
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  filter: blur(4px) brightness(0.9);
+  filter: blur(6px) brightness(0.8);
+  transform: scale(1.1);
+}
+
+.rain {
+  background-image: url('rain.jpeg');
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(6px) brightness(0.8);
+  transform: scale(1.1);
+}
+
+.sun {
+  background-image: url('sun.jpeg');
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(6px) brightness(0.8);
+  transform: scale(1.1);
+}
+
+.snow {
+  background-image: url('snow.jpeg');
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(6px) brightness(0.8);
+  transform: scale(1.1);
+}
+
+.wind {
+  background-image: url('wind.jpeg');
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(6px) brightness(0.8);
+  transform: scale(1.1);
+}
+
+.cloud {
+  background-image: url('cloudy.jpg');
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(6px) brightness(0.8);
   transform: scale(1.1);
 }
