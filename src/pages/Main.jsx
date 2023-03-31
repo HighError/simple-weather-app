@@ -17,8 +17,9 @@ function Main() {
         const res = await axios.get(
           `https://api.openweathermap.org/geo/1.0/direct?q=${search}&appid=${
             import.meta.env.VITE_APIKEY
-          }`,
+          }&limit=5`,
         );
+        console.log(res.data);
         setData(res.data);
       } catch (err) {
         setData(null);
