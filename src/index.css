@@ -11,7 +11,7 @@ body {
 }
 
 .default {
-  background-image: url('default.jpg');
+  background-image: url('/default.jpg');
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -21,7 +21,7 @@ body {
 }
 
 .rain {
-  background-image: url('rain.jpeg');
+  background-image: url('/rain.jpeg');
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -31,7 +31,7 @@ body {
 }
 
 .sun {
-  background-image: url('sun.jpeg');
+  background-image: url('/sun.jpeg');
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -41,7 +41,7 @@ body {
 }
 
 .snow {
-  background-image: url('snow.jpeg');
+  background-image: url('/snow.jpeg');
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -51,7 +51,7 @@ body {
 }
 
 .wind {
-  background-image: url('wind.jpeg');
+  background-image: url('/wind.jpeg');
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -61,7 +61,7 @@ body {
 }
 
 .cloud {
-  background-image: url('cloudy.jpg');
+  background-image: url('/cloudy.jpg');
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
