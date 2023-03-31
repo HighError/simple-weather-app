@@ -4,4 +4,18 @@
 
 body {
   margin: 0;
+  height: 100%;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  overflow: hidden;
+}
+
+.rain {
+  background-image: url('public/sun.jpeg');
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(4px) brightness(0.9);
+  transform: scale(1.1);
 }
